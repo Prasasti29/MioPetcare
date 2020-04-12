@@ -1,0 +1,256 @@
+body{
+    background-color: #FFE6E6 ;
+    font-family: 'Lobster', cursive;
+}
+
+.container h3{
+    padding: 10px;
+    margin-left: 500px;
+ }
+ 
+ .container h2{
+     margin-left:80px;
+ }
+ 
+ .card{
+     background:pink  ;
+ }
+ 
+ .footer2{
+     background-color: #FF9A9A;
+     padding: 10px;
+     text-align: center;
+     color:#FFE6E6 ;
+ }
+ .navbar-brand p{
+     font-size: 20px;
+     color:#FFE6E6  ;
+ }
+ .card-img-overlay h5{
+     font-size: 40px;
+     text-align: left;
+     color: gray;
+     margin-top: 70px;
+ }
+ .card-img-overlay h1{
+    font-size: 80px;
+    text-align: center;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+   margin-top: 160px;
+}
+
+.card-img-overlay h2{
+    font-size: 60px;
+    text-align: left;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+   margin-top: 60px;
+}
+ .card-body{
+    margin-left: 10px;
+ }
+
+ .card-title{
+     color: #FFE6E6;
+     font-size: 30px;
+ }
+
+ .card-body p{
+    color: black;
+ }
+h6{
+     color: black;
+ }
+
+ .container{
+     width: 900px;
+ }
+
+ .haha{
+    width: 500px;
+    margin: auto;
+    background-color:#FF9A9A;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0.1px 0.1px 7.5px 0.5px grey;
+    margin-top: 20px;
+
+}
+
+.hihi{
+    width: 865px;
+    background-image: url(images/bg.jpg);
+    box-shadow: 0.1px 0.1px 7.5px 0.5px grey;
+
+}
+input, select{
+    font-family: inherit; 
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+input:hover{
+    box-shadow: 0.1px 0.1px 7.5px 0.5px grey;
+} 
+
+/* CSS form */
+input[type = 'text'] {
+    width: 450px;
+    margin-bottom: 7.5px;
+    border-radius: 2.5px;
+    font-size: 15px;
+}
+
+input[type = 'email'] {
+    width: 450px;
+    margin-bottom: 7.5px;
+    border-radius: 2.5px;
+    font-size: 15px;
+}
+
+input[type = 'radio'], input[type = 'checkbox'] {
+    margin-right: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+select {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 7.5px;
+}
+
+p .office {
+    color: #FFE6E6;
+    font-weight: bold;
+}
+
+p a:hover {
+    font-style: italic;
+}
+
+input[type ="submit"]{
+    width: 450px;
+    padding: 7.5px;
+    margin-bottom: 7.5px;
+    border-radius: 2.5px;
+    font-size: 15px;
+    background: #FFE6E6;
+    border: 1px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: green;
+    color: black;
+    box-shadow: none;
+}
+
+/* CSS JQUERY Carousel */
+/* core styles */
+.isystkSlider {
+    position: relative;
+    width: 900px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .isystkSlider .view-layer {
+    width: 800px;
+    max-width: 100%;
+    overflow: hidden;
+
+    
+  }
+  
+  .isystkSlider ul.parent{
+    list-style: none;
+    
+  }
+  .isystkSlider ul.paging{
+    list-style: none;
+  }
+  
+  
+  .isystkSlider li.child{
+    float:left;
+  }
+  
+  .isystkSlider li.child p{
+    margin:0 5px 0 0;
+    border:solid 1px #dedede;
+    background:#fff;
+    padding:3px;
+  }
+  
+  .isystkSlider img{
+    vertical-align: middle;
+  }
+
+  .paging p{
+      font-size: 10px;
+      font-style: bold;
+      
+  }
+  
+  /* controls */
+  .isystkSlider .prev-btn,
+  .isystkSlider .next-btn{
+    position: absolute;
+    top: 50%;
+    margin-top: -1em;
+    width: 30px;
+  }
+  
+  .isystkSlider .prev-btn img,
+  .isystkSlider .next-btn img{
+    width: 30px;
+  }
+  
+  .isystkSlider .next-btn{
+    right: 0;
+  }
+  
+  .isystkSlider .paging {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 10px;
+    margin-left: 75px;
+    width: 700px;
+  }
+  
+  .isystkSlider .paging p{
+    margin:0 5px 0 0;
+    border:solid 1px #dedede;
+    background:#fff;
+    padding:3px;
+    
+  }
+  
+  .isystkSlider .paging.dot {
+    width: 24%;
+    margin: 5px auto;
+    list-style: none;
+  }
+  
+  
+  .isystkSlider .paging.dot li {
+    border: 1px solid #666;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    list-style: none;
+  }
+  
+  .isystkSlider .paging.dot li.active {
+    background: #666;
+    list-style: none;
+  }
